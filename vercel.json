@@ -6,10 +6,11 @@
       "framework": "vite"
     },
     "backend": {
-      "root": "backend",
-      "framework": "express",
-      "entrypoint": "src/index.ts",
-      "installCommand": "npm ci"
+        "root": "backend",
+        "framework": "express",
+        "entrypoint": "dist/index.js",
+        "installCommand": "npm ci",
+        "buildCommand": "npm run build"
     }
   },
   "rewrites": [
